@@ -1,0 +1,93 @@
+.header__top {
+  padding: 10px 0px;
+  background:#3B71CA;
+  color: #fff;
+}
+
+.header__top1 {
+  padding: 20px 0px;
+  background: #3B71CA;
+  color: #fff;
+}
+
+
+.header__top__left span {
+  font-size: 0.9rem;
+}
+
+.header__top__left spa {
+  font-size: 1.2rem;
+}
+
+.header__top__right a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  font-size: 0.9rem;
+}
+
+.header__top__right a:hover {
+  color: rgb(8, 8, 8);
+}
+@media only screen and (max-width: 768px) {
+  .header__top,
+  .header__middle,
+  .nav__right {
+    display: none;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  .navigation {
+    background: rgb(0, 13, 107, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+  }
+
+  .menu {
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+  }
+
+  .menu a {
+    color: #000d6b;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .menu__active {
+    display: block;
+    color: #ff7606;
+  }
+}
+
+
+.Navvvv{
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff !important;
+  margin-right: 2em;
+}
+
+.nav__active {
+  color: #911010e9;
+  font-weight: bold;
+  
+}
+
+.active{
+  color:#000000;
+  font-weight: bold;
+ }
+
